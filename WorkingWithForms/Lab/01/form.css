@@ -1,0 +1,16 @@
+*{
+    font-family: 14px/1.5 "Lato", sans-serif;
+}
+
+.code{
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#search-get, #search-post {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
