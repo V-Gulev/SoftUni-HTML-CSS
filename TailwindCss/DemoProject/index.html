@@ -1,0 +1,167 @@
+<!-- 🎨 FIGMA DESIGN 🎨 -->
+<!-- Landwind - Tailwind CSS Landing Page -->
+<!-- https://www.figma.com/community/file/1125744163617429490 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <div class="border-b border-gray-100 2xl:px-0 shadow-sm">
+        <header
+            class="mx-auto bg-white p-6 max-w-7xl sticky top-0 left-0 flex gap-8 items-center justify-between 2xl:px-0">
+
+            <img class="h-9" src="./assets/logo.png" alt="">
+
+            <nav
+                class="absolute hidden left-0 top-full w-full bg-white/90 p-3 lg:block lg:relative lg:left-auto lg:top-auto">
+                <ul class="flex flex-col gap-3 text-center lg:flex-row lg:gap-6 xl:gap-8">
+                    <li>Company</li>
+                    <li>Marketplace</li>
+                    <li>Features</li>
+                    <li>Team</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+
+            <div class="flex items-center gap-x-4 shrink-0">
+                <a class="text-sm font-medium text-gray-900" href="">Log In</a>
+                <button class="rounded-lg p-3 bg-purple-600 text-white text-sm font-medium">Get Started</button>
+            </div>
+        </header>
+    </div>
+
+    <main>
+
+        <section class="py-16 px-8 flex flex-col gap-6 items-center md:flex-row md:gap-4 max-w-7xl mx-auto 2xl:px-0">
+
+            <div class="md:w-1/2 lg:w-full">
+                <h1 class="text-3xl font-black mb-6 lg:text-6xl">Building digital products & brands.</h1>
+                <p class="text-xl text-gray-500 font-normal mb-10">Here at flowbite we focus on markets where
+                    technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+
+                <div class="flex flex-col gap-5 items-center md:flex-row">
+                    <button
+                        class="self-stretch rounded-lg p-3 bg-purple-600 text-white text-sm font-medium cursor-pointer hover:bg-purple-400 hover:text-gray-900 transition-colors ">
+                        Start 30 day free trial
+                    </button>
+
+                    <button class="rounded-lg p-3 bg-white text-gray-800 border border-gray-200 text-sm font-medium">
+                        Pricing & FAQ
+                    </button>
+                </div>
+            </div>
+
+            <img class="max-w-lg w-full md:w-1/2" src="./assets/hero.png" alt="">
+        </section>
+
+        <section class="pb-24 px-8 max-w-7xl mx-auto 2xl:px-0">
+            <ul class="flex items-center justify-between flex-wrap gap-y-4 gap-x-6 md:flex-nowrap">
+                <li class="w-[40%] grow sm:w-[30%] md:w-full"><img class="w-full" src="./assets/google.png" alt=""></li>
+                <li class="w-[40%] grow sm:w-[30%] md:w-full"><img class="w-full" src="./assets/microsoft.png" alt="">
+                </li>
+                <li class="w-[40%] grow sm:w-[30%] md:w-full"><img class="w-full" src="./assets/spotify.png" alt="">
+                </li>
+                <li class="w-[40%] grow sm:w-[30%] md:w-full"><img class="w-full" src="./assets/mailchimp.png" alt="">
+                </li>
+                <li class="w-[40%] grow sm:w-[30%] md:w-full"><img class="w-full" src="./assets/airbnb.png" alt=""></li>
+                <li class="w-[40%] grow sm:w-[30%] md:w-full"><img class="w-full" src="./assets/uber.png" alt=""></li>
+            </ul>
+
+        </section>
+
+        <div class="bg-gray-50">
+            <section class="py-24 px-8 max-w-7xl mx-auto 2xl:px-0 flex flex-col gap-8 md:flex-row md:items-center">
+                <div class="md:w-1/2">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">
+                        Work with tools you already use
+                    </h2>
+
+                    <p class="text-gray-500 text-xl font-normal">
+                        Deliver great service experiences fast - without the complexity of traditional ITSM
+                        solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease.
+                    </p>
+
+                    <div class="h-[1px] bg-gray-200 my-8"></div>
+
+                    <ul class="flex flex-col gap-4 pb-6">
+                        <li class="flex gap-2 items-center">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10 18.5C12.1217 18.5 14.1566 17.6571 15.6569 16.1569C17.1571 14.6566 18 12.6217 18 10.5C18 8.37827 17.1571 6.34344 15.6569 4.84315C14.1566 3.34285 12.1217 2.5 10 2.5C7.87827 2.5 5.84344 3.34285 4.34315 4.84315C2.84285 6.34344 2 8.37827 2 10.5C2 12.6217 2.84285 14.6566 4.34315 16.1569C5.84344 17.6571 7.87827 18.5 10 18.5ZM13.707 9.207C13.8892 9.0184 13.99 8.7658 13.9877 8.5036C13.9854 8.2414 13.8802 7.99059 13.6948 7.80518C13.5094 7.61977 13.2586 7.5146 12.9964 7.51233C12.7342 7.51005 12.4816 7.61084 12.293 7.793L9 11.086L7.707 9.793C7.5184 9.61084 7.2658 9.51005 7.0036 9.51233C6.7414 9.5146 6.49059 9.61977 6.30518 9.80518C6.11977 9.99059 6.0146 10.2414 6.01233 10.5036C6.01005 10.7658 6.11084 11.0184 6.293 11.207L8.293 13.207C8.48053 13.3945 8.73484 13.4998 9 13.4998C9.26516 13.4998 9.51947 13.3945 9.707 13.207L13.707 9.207Z"
+                                    fill="#7E3AF2" />
+                            </svg>
+
+                            <p class="text-base text-gray-900">Continuous integration and deployment</p>
+                        </li>
+
+                        <li class="flex gap-2 items-center">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10 18.5C12.1217 18.5 14.1566 17.6571 15.6569 16.1569C17.1571 14.6566 18 12.6217 18 10.5C18 8.37827 17.1571 6.34344 15.6569 4.84315C14.1566 3.34285 12.1217 2.5 10 2.5C7.87827 2.5 5.84344 3.34285 4.34315 4.84315C2.84285 6.34344 2 8.37827 2 10.5C2 12.6217 2.84285 14.6566 4.34315 16.1569C5.84344 17.6571 7.87827 18.5 10 18.5ZM13.707 9.207C13.8892 9.0184 13.99 8.7658 13.9877 8.5036C13.9854 8.2414 13.8802 7.99059 13.6948 7.80518C13.5094 7.61977 13.2586 7.5146 12.9964 7.51233C12.7342 7.51005 12.4816 7.61084 12.293 7.793L9 11.086L7.707 9.793C7.5184 9.61084 7.2658 9.51005 7.0036 9.51233C6.7414 9.5146 6.49059 9.61977 6.30518 9.80518C6.11977 9.99059 6.0146 10.2414 6.01233 10.5036C6.01005 10.7658 6.11084 11.0184 6.293 11.207L8.293 13.207C8.48053 13.3945 8.73484 13.4998 9 13.4998C9.26516 13.4998 9.51947 13.3945 9.707 13.207L13.707 9.207Z"
+                                    fill="#7E3AF2" />
+                            </svg>
+
+                            <p class="text-base text-gray-900">Development workflow</p>
+                        </li>
+
+                        <li class="flex gap-2 items-center">
+                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10 18.5C12.1217 18.5 14.1566 17.6571 15.6569 16.1569C17.1571 14.6566 18 12.6217 18 10.5C18 8.37827 17.1571 6.34344 15.6569 4.84315C14.1566 3.34285 12.1217 2.5 10 2.5C7.87827 2.5 5.84344 3.34285 4.34315 4.84315C2.84285 6.34344 2 8.37827 2 10.5C2 12.6217 2.84285 14.6566 4.34315 16.1569C5.84344 17.6571 7.87827 18.5 10 18.5ZM13.707 9.207C13.8892 9.0184 13.99 8.7658 13.9877 8.5036C13.9854 8.2414 13.8802 7.99059 13.6948 7.80518C13.5094 7.61977 13.2586 7.5146 12.9964 7.51233C12.7342 7.51005 12.4816 7.61084 12.293 7.793L9 11.086L7.707 9.793C7.5184 9.61084 7.2658 9.51005 7.0036 9.51233C6.7414 9.5146 6.49059 9.61977 6.30518 9.80518C6.11977 9.99059 6.0146 10.2414 6.01233 10.5036C6.01005 10.7658 6.11084 11.0184 6.293 11.207L8.293 13.207C8.48053 13.3945 8.73484 13.4998 9 13.4998C9.26516 13.4998 9.51947 13.3945 9.707 13.207L13.707 9.207Z"
+                                    fill="#7E3AF2" />
+                            </svg>
+
+                            <p class="text-base text-gray-900">Knowledge management</p>
+                        </li>
+                    </ul>
+
+                    <p class="text-gray-500 text-xl font-normal">
+                        Deliver great service experiences fast - without the complexity of traditional ITSM solutions.
+                    </p>
+
+                </div>
+
+                <img class="md:w-1/2" src="./assets/feature1.png" alt="">
+
+            </section>
+        </div>
+
+        <div class="flex justify-center items-center p-20">
+
+            <article class=" w-full max-w-sm shadow-md rounded-md overflow-hidden">
+                <div class="w-full aspect-video">
+                    <img class="w-full h-full object-cover"
+                        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+                        alt="Nature Unsplash">
+                </div>
+
+                <section class="py-6 px-4 group">
+                    <h1 class="text-2xl font-bold mb-2 text-gray-900">Some Title</h1>
+                    <p class="text-base mb-4 text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Repudiandae, voluptate assumenda sed
+                        debitis amet omnis nostrum optio eos aspernatur cum, aperiam recusandae fugit saepe adipisci
+                        voluptas, mollitia quaerat architecto esse.</p>
+                    <button
+                        class="self-stretch rounded-lg p-3 bg-purple-600 text-white text-sm font-medium cursor-pointer  transition-colors  group-hover:bg-amber-700">
+                        Learn more
+                    </button>
+                </section>
+            </article>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
