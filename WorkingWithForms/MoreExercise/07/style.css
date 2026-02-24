@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    margin: 2rem;
+    border: 2px solid #2200ff;
+}
+
+@media (min-width: 800px) {
+
+    header,
+    section,
+    footer {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    header,
+    section,
+    footer {
+        width: 22%;
+    }
+}
